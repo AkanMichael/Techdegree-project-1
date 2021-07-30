@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/skyline.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,36 +70,36 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #fcc203;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 3px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: transparent;
+  color: #fcc203;
 }
-.card {
+.section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 30px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.section:hover {
+  border-color: #fcc203;
 }
 
 ul.skills {
@@ -205,3 +205,25 @@ a.social:hover {
 
 }
 
+h2 {
+  text-align: center;
+  padding: 2%;
+  border: solid #fcc203 3px;
+  
+  
+
+}
+
+.sections {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 30px;
+  transition: all .5s;
+}
+.sections:hover {
+  border-color: #fcc203;
+}
